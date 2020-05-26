@@ -104,9 +104,9 @@ Finally, characters are able to get a final chance at having a special gift:
 \begin{itemize}
 \item \textbf{1-6, Nothing:} The character gets no benefit.
 \item \textbf{7, Cautious:} The character obtains proficiency in perception.
-\item \textbf{8, Martial Arts:} The character's basic unarmed attack does 1d6 + STR damage. 
-\item \textbf{9, Strong Arm:} The character's basic throwing attack does 1d6 + DEX damage.
-\item \textbf{10, Spiritual Connection:} The character has opened a channel to the spirits of old and can cast spirit bomb attacks (using WIS) that do 1d6 + WIS damage.
+\item \textbf{8, Martial Arts:} The character's basic unarmed attack does 1d6 + STR damage (1 MA tree point). 
+\item \textbf{9, Strong Arm:} The character's basic throwing attack does 1d6 + DEX damage (1 P tree point).
+\item \textbf{10, Spiritual Awakening:} The character has opened a channel to the spirits of old and can cast spirit bomb attacks (using WIS) that do 1d6 + WIS damage (1 S tree point).
 \end{itemize}
 
 \subsection{Other character creation items}
@@ -129,7 +129,7 @@ El features a climate that can be best described as Mediterranean: most of the k
         \caption{Map of the kingdom of El. Eden is denoted by the brown dot in the upper centre of the grey region (the province of Tygerus).}
 \end{figure}
 
-Eden is located close to the centre of the province of Tygerus. The main city of Eden is built on a hill, with a fairly steep cliff on one side. The slaves live in a favela on a hill about 400 meters west from the main part of the city. A copper mine is about 2.5 km to the north-west of the city. A small river lies about 3.5 km to the East of the city and flows past the town of Mark (about 8 km to the south). The only other town of significance in the region is Arkeus, which lies about 18 km to the south-west. 
+Eden is located close to the centre of the province of Tygerus. The main city of Eden is built on a hill, with a fairly steep cliff on one side. The slaves live in a favela on a hill about 400 meters west from the main part of the city. A copper mine is about 2.5 km to the north-west of the city. A small river lies about 3.5 km to the East of the city and flows past the town of Mark (about 8 km to the south). This river is fed by Royals lake about 5-6 km to the NE of Eden. Additionally, there is a wood (Moore's wood) that is about 8.5 km to the NW. The only other town of significance in the region is Arkeus, which lies about 18 km to the south-west and is close to Dalnotha Lake. 
 
 \begin{figure}[h] 
         % read manual to see what [ht] means and for other possible options
@@ -143,6 +143,9 @@ Eden is located close to the centre of the province of Tygerus. The main city of
         \caption{Map of the area surrounding Eden.}
 \end{figure}
 
+\subsection{Eden}
+
+There are 7 main sections of the city: the government and aristocratic district (Arlum), the artisans district (Zilnyt), the market (The Market), the higher-tier neighborhood (Umrah), the middle-tier neighborhood (Selma), and two lower-tier neighborhoods (Korenda and Koboto).
 
 \section{Politics and society}\label{Politics}
 
@@ -161,10 +164,13 @@ Normally, each round a character can move and take an action.
 \item \textbf{Aim:} Prepare a more accurate strike on an enemy. The player gets slight advantage on their next attack (if it's on the enemy they're focusing on), but attacks versus that player are made with advantage and that player makes perception checks at serious disadvantage.
 \item \textbf{Attack:} Unleash an attack on an enemy. See ``Attacks" for more details.
 \item \textbf{Dash:} Take 2.5 movement actions (round the movement down to the nearest meter). See ``Running" for more details.
+\item \textbf{Disarm:} Attempt to disarm an opponent. The player must be in melee range and make a melee attack at serious disadvantage. If the attack is successful, no damage is dealt but the opponent's weapon is knocked out of their grip and 1d4 meters away.
 \item \textbf{Disengage:} Can move out of engagement range without provoking an attack of opportunity.
 \item \textbf{Dodge:} Attacks against the player have slight disadvantage until their next turn.
 \item \textbf{Draw or sheath a weapon:} Holds for most weapons. Some very big or very concealed weapons make require more time. 
+\item \textbf{Grapple:} The player attempts to grapple another character, rendering them incapacitated. The character makes an attack at extreme disadvantage. If it is successful, the creature is incapacitated. The creature can make an opposed strength check at the end of their turn to try and escape. 
 \item \textbf{Protect:} The player protects another creature, increasing that creature's defense and lowering their own. The player may chose to give low, medium, or high levels of protection: low gives attacks against the protected creature slight disadvantage but attacks against the player advantage, medium gives attacks against the protected creature disadvantage but attacks against the player serious advantage, and high gives attacks against the protected creature serious disadvantage but attacks against the player extreme advantage. 
+\item \textbf{Surrender:} The player surrenders.
 \item \textbf{Wait:} Up until the beginning of their next turn, the player holds their action until whenever they want to use it.
 \end{itemize}
 
@@ -186,7 +192,7 @@ In many cases, the level of advantage is subjective. The DM should make these ca
 
 \subsection{Attacks}
 
- Untrained melee attacks do 1d4 damage + STR to a minimum of 1 on a hit. Untrained ranged attacks do 1d4 + DEX (a reasonably sized stone or similar projectile has a range of 7/15 meters). A branch or basic improvised weapon does 1d6 + STR, a metal rod does 1d8 + STR and a pitchfork, mining pick, or woodcutting axe does 1d10 + STR. Daggers and other standard 1d4 weapons (in D\&D) do 1d12 damage. In general, 5th edition weapon conversion is: 1d6 $\rightarrow$ 3d6, 1d8 $\rightarrow$ 3d8, 1d10 $\rightarrow$ 3d10, and 1d12 $\rightarrow$ 3d12. In general, spells do triple damage and hp is tripled. The reason for these adjustments is to make the slaves not get instantly one-banged during any early fights they might encounter while also making the transition to a more adventure D\&D style game possible. Furthermore, it balances out damage by making expected damage output be much less variance prone. 
+ Untrained melee attacks do 1d4 damage + STR to a minimum of 1 on a hit. Untrained ranged attacks do 1d4 + DEX (a reasonably sized stone or similar projectile has a range of 7/15 meters). A branch or basic improvised weapon does 1d6 + STR, a metal rod does 1d8 + STR and a pitchfork, mining pick, or woodcutting axe does 1d10 + STR. Daggers and other standard 1d4 weapons (in D\&D) do 2d4 damage. In general, 5th edition weapon conversion is: 1d6 $\rightarrow$ 2d6, 1d8 $\rightarrow$ 2d8, 1d10 $\rightarrow$ 2d10, and 1d12 $\rightarrow$ 2d12. In general, spells do double damage and hp is tripled. Proficiency with a weapon not only gives the standard bonus to attack, but also increases the number of damage dice being rolled by one (e.g. daggers do 3d4 damage if one is proficient with them). Weapon proficiency can be taken more than once, as described in the character advancement section: each time proficiency is taken the number of damage dice increases by 1 (though the bonus to attack does not increase). The reason for these adjustments is to make the slaves not get instantly one-banged during any early fights they might encounter while also making the transition to a more adventure based D\&D style game possible. Furthermore, it balances out damage by making expected damage output be much less variance prone. 
 
 \subsection{Running}
 
@@ -236,6 +242,8 @@ Injuries are always possible when a character gets hit down to low health:
 \item \textbf{-100\% Health --- Death:} The character is dead. 
 \end{itemize}  
 
+Note: One healing check to stabilize a character can be made per death saving throw. It is made at slight disadvantage if the healer is proficient in healing and serious disadvantage if the character is not. One additional character may assist to increase the level of advantage by 1. Using a healers kit raises the level of advantage by 1 (though this takes 1 action to prep). Doing work in a sterile and controlled environment increases level of advantage by 2. DC to stabilize is 15 if at 0 to -50\% of max HP, 20 if worse than that.
+
 Minor injuries are to be given at the DM's discretion. Minor injuries should take at least 3 days and at most 2 weeks to heal fully. When the injury is fully unhealed, a minus 2 penalty applies to all checks done that utilize the relevant body part (e.g. a sprained ankle makes any sort of acrobatics check have a -2). After one-third of the recovery time has passed or proper medical assistance has been obtained, this is lowered to a -1. 
 
 Moderate injuries take 2-6 weeks to heal fully; this includes fractures, major sprains, moderate concussions, minor stab wounds, etc. In general, this causes all relevant rolls to be done with disadvantage. In general, roll a 1d20:
@@ -262,8 +270,6 @@ Major injuries take a massive amount of time to heal --- or, in some cases, neve
 
 \section{Equipment and Items}\label{Equipment}
 
-Work in progress.
-
 \subsection{Weapons}
 
 \subsection{Armour}
@@ -278,55 +284,77 @@ Work in progress.
 
 \section{Character advancement}\label{LevelingUp}
 
-Work in progress.
+In general, the characters should be given a chance to advance at the conclusion of every chapter. Generically, this should be done via the use of a d10 advancement die. For the campaign to be played at standard difficulty, the chance of advancement is 80\%. To make the campaign easier this can be adjusted up to 100\%; to make it harder, down to 50\%. In all cases, a character automatically passes their level up check if they missed the previous two. Before classes are unlocked at level 5, all characters follow standard advancement. 
 
-\section{Key characters}\label{Characters}
+\subsection{Level 2}
 
-I'm uncertain of how to adapt this section for players, as you're not supposed to know much about these characters. As such, I've stripped almost all the information from these profiles, leaving only the names. At some point, I might fill this in with the details that the party knows. Or, if you want, you can fill it in yourself as you learn bits and pieces.
+Max HP is increased by 2d4 + CON (min 1). The character may choose to gain proficiency in either hand-to-hand combat or throwing. The character may roll a luck die (d8): on a 7 they get + 2 max hp, on an 8 they get + 1 to a random stat, and on all other rolls they get nothing. If a character has at least 7 INT but isn't literate, they have a 20\% chance of becoming literate (this same condition holds for all future levels).
 
-\subsection{Public figures}
+\subsection{Level 3}
 
+Max HP is increased by 2d4 + CON (min 1). The character may choose to gain proficiency in either hand-to-hand combat or throwing (whichever they don't have). Additionally, one skill proficiency which shares the same type of the highest stat (if there are multiple highest stats, the player chooses which stat they want) may be obtained. However, at least one check of this stat must have been made during the course of the adventure. The character may roll a luck die (d8): on a 3 they get + 2 max hp, on a 4-6 they get + 1 to a random stat, on a 7 they learn basic martial arts (if they already have it, they advance one more position down the martial arts tree --- aka 1 MA tree point), on an 8 they have a spiritual awakening, and on all other rolls they get nothing. 
+
+\subsection{Level 4}
+
+Max HP is increased by 2d4 + CON (min 1). The character advances a stat that the player chooses by 1 point and another stat (chosen at random) by 1 point. The character may choose to gain proficiency with staves, clubs, or slings. Additionally, one skill proficiency which shares the same type of the highest stat (if there are multiple highest stats, the player chooses which stat they want) may be obtained. However, at least one check of this stat must have been made during the course of the adventure. Each character also gets 1 mastery tree point that they can put into any tree they are eligible for. The character may roll a luck die (d8): on a 4-5 they get + 2 max hp, on a 6 they learn 1 Pr tree point, on a 7 they learn 1 MA tree point, on a 8 they have a spiritual awakening, and on all other rolls they get nothing. 
+
+\subsection{Level 5}
+
+Before any other advancement, if a character does not have any stat at 9 or higher then their highest stat is adjusted to 9. Each character gets 1 CA point or optionally, if they have been spiritually awakened, 1 S point. The character may roll a luck die (d8): on a 7 they get + 2 max hp, on a 8 they have a spiritual awakening, and on other rolls they get nothing. 
+
+
+\subsection{Mastery Trees}
+
+\subsubsection{Class Advancement (CA)}
+Classes are unlocked at level 5. Each advancing of a class level requires at least 1 CA point. This list just outlines class prerequisites.
+ 
 \begin{itemize}
-\item \textbf{Emperor Johanna V'Talom:} The emperor of the kingdom of Avarisi.
-
-\item \textbf{King Morgan Nilas:} The king of the conquered land of El.
-
-\item \textbf{Viceroy James Malecious:} The viceroy of the province of Tygerus, the province of El where Eden is located. He is stationed in the provincial capital of Sinderin, where he has presided since 1170.
-
-\item \textbf{Overseer D'arcy Lonergan:} The overseer of Eden since 1154, D'arcy came to power after the death of the old overseer, Bortan Jornal.
+\item \textbf{Archer:} Prerequisites: DEX 9.
+\item \textbf{Brawler:} Prerequisites: CON 9.
+\item \textbf{Caster:} Prerequisites: INT 9.
+\item \textbf{Enforcer:} Prerequisites: STR 9.
+\item \textbf{Entertainer:} Prerequisites: CHA 9.
+\item \textbf{Healer:} Prerequisites: WIS 9. 
 \end{itemize}
 
-\subsection{Historical figures}
+
+\subsubsection{Martial Arts (MA)}
 
 \begin{itemize}
-\item \textbf{John Brown:} 
-\end{itemize}
-
-\subsection{Avarisi of Eden}
-
-\begin{itemize}
-\item Nothing for you yet!
-\end{itemize}
-
-\subsection{El of Eden}
-
-\begin{itemize}
-\item \textbf{Moyra:}
-
-\item \textbf{Jaxxon Pine:}
-
-\item \textbf{Jessie Thaler:}
+\item \textbf{Martial Arts Basics:} Prerequisites: None. Upgrades unarmed hit die to a d6. 
+\item \textbf{Grappling:} Prerequisites: MAB, Hand-to-hand combat proficiency. Grapples checks are done at +1 advantage level (generically, serious disadvantage).
+\item \textbf{Focus:} Prerequisites: MAB, Hand-to-hand combat proficiency. While aiming unarmed strikes, perception checks are made +1 AL (disadvantage) and attacks against the character at -1 AL (slight advantage).
+\item \textbf{Defensive Posture:} Prerequisites: MAB, Hand-to-hand combat proficiency. While using the dodge action and being unarmed, attacks against the character feature an additional -1 AL (disadvantage). 
+\item \textbf{Powerful Hand:} Prerequisites: MAB, Hand-to-hand combat proficiency, Focus. Upgrades unarmed hit die to a d8.
+\item \textbf{Disarm:} Prerequisites: MAB, Hand-to-hand combat proficiency, grappling. Attempts to disarm opponents are made at +1 AL (disadvantage). Additionally, the character can make a DEX check (DC 15 for a small weapon, 20 for a medium, and 25 for a large (two-handed) weapon) to try and catch the weapon if they successfully disarm it.
+\item \textbf{Defender:} Prerequisites: MAB, Hand-to-hand combat proficiency, Defensive posture. Attacks made against a character that is using the protect action are done at -1 AL.
 
 \end{itemize}
 
-\section{Plot}\label{Plot}
+\subsubsection{Physical (P)}
+This tree requires strength, dexterity, and constitution scores of at least 8 each to access. 
 
-You don't get to read this section!!
 
-\section{Enemies}\label{Enemies}
+\subsubsection{Projectiles (Pr)}
 
-You don't get to read this section!!
-   
+\begin{itemize}
+\item \textbf{Strong Arm:} 
+
+\end{itemize}
+
+\subsubsection{Spiritual Connection (S)}
+This tree can't be accessed at will. It requires the character to have a ``spiritual awakening". In order to access pretty much any spiritual abilities a character must link up to a spirit at their grave. This can only be done whenever the character gains a point to advance along the spirit track. Each level up within a spirit based class costs at least 1 S point. The classes are outlined after the mastery trees. This section only outlines the minimum stats required to be able to make a spiritual connection with a fallen hero.
+
+\begin{itemize}
+\item \textbf{Spiritual Connection:} Prerequisites: Spiritual awakening event. The character can open up a channel to the spirit world. The difficulty of doing so relates to the strength of the spirit, the amount of the body buried (and buried properly), proximity (time, place, relationship), magical items, and whether or not the character is doing a joint connection. Also gains the ability to cast spirit bomb attacks: WIS based ranged attack (10/20 m), does 1d6 + WIS damage. Requires at least one arm free to cast. 
+\item \textbf{Barbarian (Jane Adorno):} Prerequisites: STR 11.
+\item \textbf{Cleric (Joltan Foucault):} Prerequisites: WIS 11. 
+\item \textbf{Paladin (Zoey Bertrand):} Prerequisites: STR and CHA 11.
+\item \textbf{Sorcerer (Symbalt Derrida):} Prerequisites: CHA 11.
+\end{itemize}
+
+
+
 %Keep the following chunk as examples of how to input images and tables.
 \begin{comment}
 \begin{figure}[ht] 
